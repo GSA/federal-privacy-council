@@ -60,7 +60,7 @@
       {% assign navs = site.data.navbar.assigned %}
       {% for nav in navs %}
         {% if nav.children != null %}
-        <li><button class="usa-accordion-button usa-nav-link" aria-expanded="false" aria-controls="basic-nav-section-one">
+        <li><button class="usa-accordion-button usa-nav-link" aria-expanded="false" aria-controls="{{ nav.sectionid }}">
       <span>{{ nav.text}}</span>
           <ul id="{{ nav.sectionid }}" class="usa-nav-submenu">
           {% for children in nav.children %}
