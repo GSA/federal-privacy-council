@@ -62,7 +62,7 @@
         {% if nav.children != null %}
         <li>
           <a href="{{ nav.permalink | prepend: site.baseurl }}">{{ nav.text }}</a>
-          <ul>
+          <ul id="basic-nav-section-one" class="usa-nav-submenu">
           {% for children in nav.children %}
             <li><a href="{{ children.permalink | prepend: site.baseurl }}">{{ children.text }}</a></li>
           {% endfor %}
