@@ -59,7 +59,6 @@
       <ul class="usa-nav-primary usa-accordion">
       {% assign navs = site.data.navbar.assigned %}
       {% for nav in navs %}
-        {% if nav.show_in_menu %}
         {% if nav.children != null %}
         <li>
           <a href="{{ nav.permalink | prepend: site.baseurl }}">{{ nav.text }}</a>
@@ -78,6 +77,7 @@
           <a href="{{ nav.permalink | prepend: site.baseurl }}">{{ nav.text }}</a>
         </li>
         {% endif %}
+       {% endfor %}  
       </ul>
     </nav>
   </div>
