@@ -1,10 +1,14 @@
 assigned:
     -
         text: 'About'
-        permalink: /federal-privacy-council/
+        permalink: ./
         show_in_footer: false
         sectionid: basic-nav-section-one
         children:
+        -
+            text: 'Federal Privacy Council'
+            permalink: /federal-privacy-council/
+            show_in_footer: false
         -
             text: 'Council Members'
             permalink: /council-members/
