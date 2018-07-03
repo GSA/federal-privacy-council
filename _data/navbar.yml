@@ -3,7 +3,7 @@ assigned:
         text: 'About'
         permalink: /federal-privacy-council/
         show_in_footer: false
-        sectionid: 'basic-nav-section-one'
+        sectionid: basic-nav-section-one
         children:
         -
             text: 'Council Members'
@@ -16,7 +16,7 @@ assigned:
     -
         text: 'Resources'
         permalink: ./
-        sectionid: 'basic-nav-section-two'
+        sectionid: basic-nav-section-two
         show_in_footer: false
         children:
             -
