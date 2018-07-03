@@ -84,9 +84,9 @@ footer:
         permalink: /agencies/
       - text: Careers
         permalink: /careers/
-        image: /assets/img/fpc_logo.png/
+        image: /assets/img/fpc_logo.png
   contact:
-    name: 
+    name: Federal Privacy Council 
     phonenumber: 
     email: support@fpc.gov
     twitter:
