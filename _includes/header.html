@@ -64,7 +64,7 @@
       <span>{{ nav.text}}</span>
           <ul id="basic-nav-section-one" class="usa-nav-submenu">
           {% for children in nav.children %}
-            <li><a href="{{ children.href }}">{{ children.text }}</a></li>
+            <li><a href="{{ children.permalink | prepend: site.baseurl }}">{{ children.text }}</a></li>
           {% endfor %}
           </ul>
         </li>
