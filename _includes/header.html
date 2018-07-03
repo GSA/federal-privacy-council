@@ -69,11 +69,11 @@
           </ul>
         </li>
        {% elsif nav.text == page.text %}
-         <li class="active">
+         <li class="usa-nav-link">
            <a href="{{ nav.permalink | prepend: site.baseurl }}">{{ nav.text }}</a>
          </li>
       {% else %} 
-        <li>
+        <li class="usa-nav-link">
           <a href="{{ nav.permalink | prepend: site.baseurl }}">{{ nav.text }}</a>
         </li>
         {% endif %}
