@@ -10,7 +10,7 @@ hero-button-link: https://obamawhitehouse.archives.gov/sites/default/files/omb/m
 banner-heading: 'Latest Federal Privacy Council News:'
 banner-text: 
   -   <a class="usa-footer-primary-link" href="https://www.fpc.gov/blog-fpc-idpa/" align="center">Federal Privacy Council meets with International Data Protection Authorities</a></li>
-banner-button-text: Learn more
-banner-button-link: /about/
+banner-button-text:
+banner-button-link:
 ---
 
