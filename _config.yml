@@ -84,16 +84,14 @@ footer:
         permalink: /agencies/
       - text: Careers
         permalink: /careers/
-        image: /assets/img/logo-main.png
-        
+        image: /assets/img/logo-main.png  
   sitelink:      
     - url: /about-this-site/
       text: About this Site
     - url: /privacy-policy/
       text: Privacy Policy
     - url: /disclaimer/
-      text: Disclaimer
-    
+      text: Disclaimer    
   contact:
     name: Federal Privacy Council 
     phonenumber: 
