@@ -3492,12 +3492,12 @@ input.usa-input-medium {
 
 .usa-hero-callout > *:first-child {
   margin-top: 0;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .usa-hero-callout .usa-button {
   font-size: 1.4rem;
-  margin-top: 3rem;
+  margin-top: 2rem;
   width: 100%;
 }
 
