@@ -60,8 +60,8 @@
       {% assign navs = site.data.navbar.assigned %}
       {% for nav in navs %}
         {% if nav.children != null %}
-        <li>
-          <a href="{{ nav.permalink | prepend: site.baseurl }}">{{ nav.text }}</a>
+        <li><button class="usa-accordion-button usa-nav-link" aria-expanded="false" aria-controls="basic-nav-section-one">
+      <span>{{ nav.text}}</span>
           <ul id="basic-nav-section-one" class="usa-nav-submenu">
           {% for children in nav.children %}
             <li><a href="{{ children.permalink | prepend: site.baseurl }}">{{ children.text }}</a></li>
