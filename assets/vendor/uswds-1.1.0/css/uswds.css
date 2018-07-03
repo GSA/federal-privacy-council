@@ -3485,7 +3485,7 @@ input.usa-input-medium {
 
 @media screen and (min-width: 481px) {
   .usa-hero-callout {
-    max-width: 30rem;
+    max-width: 35rem;
   }
 }
 
@@ -3496,7 +3496,7 @@ input.usa-input-medium {
 
 .usa-hero-callout .usa-button {
   font-size: 1.4rem;
-  margin-top: 7rem;
+  margin-top: 6rem;
   width: 100%;
 }
 
