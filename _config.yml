@@ -72,17 +72,25 @@ forms:
 
 footer:
   links:
-      - text: 
-        href: 
-      - text: 
-        href: 
-        image: 
+      - text: About
+        permalink: /federal-privacy-council/
+      - text: Law
+        permalink: /law-library/
+      - text: Resources
+        permalink: /resources/
+      - text: Implementation
+        permalink: /implementation/
+      - text: Agencies
+        permalink: /agencies/
+      - text: Careers
+        permalink: /careers/
+        image: /assets/img/fpc_logo.png/
   contact:
     name: 
     phonenumber: 
-    email: 
+    email: support@fpc.gov
     twitter:
-      - 18f
+      - 18F
     facebook: 
     youtube: 
     rss: 
