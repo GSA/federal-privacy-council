@@ -7,24 +7,22 @@ assigned:
         show_in_footer: false
     -
         text: Law
-        href: /law-library/
         permalink: /law-library/
         show_in_menu: true
         show_in_footer: false
     -
         text: Resources
-        href: ./
         permalink: ./
         show_in_menu: true
         show_in_footer: false
         children:
             -
-                text: 'Microloans for Farmers'
+                text: 'Federal Privacy Programs'
                 href: pages/projects/microloans-for-farmers.md
                 show_in_menu: false
                 show_in_footer: false
             -
-                text: 'Reducing Summer Melt'
+                text: 'Office of Management and Budget (OMB)'
                 href: pages/projects/reducing-summer-melt.md
                 show_in_menu: false
                 show_in_footer: false
