@@ -6,7 +6,7 @@
         <ul class="usa-unstyled-list">
         {% for link in site.footer.links %}
           <li class="usa-width-one-sixth usa-footer-primary-content">
-            <a class="usa-footer-primary-link" href="{{ link.href }}">{{ link.text }}</a>
+            <a class="usa-footer-primary-link" href="{{ link.permalink | prepend: site.baseurl }}">{{ link.text }}</a>
           </li>
         {% endfor %}
         </ul>
@@ -20,7 +20,7 @@
     <div class="usa-grid">
       <div class="usa-footer-logo usa-width-one-half">
         {% if site.footer.image %}
-          <img class="usa-footer-logo-img" src="{{ site.footer.image | prepend: site.baseurl }}" alt="Logo image">
+          <img class="usa-footer-logo-img" src="{{ site.footer.image | prepend: site.baseurl }}" alt=" FPC Logo image">
         {% endif %}
         {% if site.footer.text %}
           <p>{{ site.footer.text }} <a href="https://github.com/{{ site.org_name }}/{{ site.repo_name }}/edit/{{ site.branch }}/{{ page.path }}" target="_blank">Suggest an edit</a>.</p>
