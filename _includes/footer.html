@@ -42,7 +42,7 @@
             <p><a href="tel:{{ site.footer.contact.phonenumber }}">{{ site.footer.contact.phonenumber }}</a></p>
           {% endif %}
           <p><a href="mailto:{{ site.footer.contact.email }}">{{ site.footer.contact.email }}</a></p>
-          <p><a href="{{ site.footer.sitelink.url | prepend.baseurl }}">{{ site.footer.sitelink.text}}</a></p>
+          <p><a href="{{ site.footer.sitelink.url | prepend: site.baseurl }}">{{ site.footer.sitelink.text}}</a></p>
         </address>
 
       </div>
