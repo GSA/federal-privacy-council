@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About this Website
-permalink: /about-this-website/
+permalink: /about-this-site/
 image:
 ---
 ## A Resource about Privacy for Federal Government Agencies
