@@ -57,10 +57,6 @@ assigned:
                 show_in_footer: false
                 
     -
-        text: 'Implementation'
-        permalink: /implemenation/
-        show_in_footer: false
-    -
         text: 'Agencies'
         permalink: /agencies/
         show_in_footer: false
