@@ -1,17 +1,19 @@
 ---
 layout: base
 ---
-<section class="usa-grid usa-section">
-  <div class="usa-width-one-whole">
-    <h1>{{ page.hero-text }}</h1>
-  </div>
+<section class=" usa-section">
+  <div class="usa-grid" style="background-image: url('{{ page.background-image | prepend: site.baseurl }}'); height: 200px;">
+    <div class="usa-width-one-whole">
+      <h1 style="color: #ffffff;">{{ page.hero-text }}</h1>
+    </div>
+  </div>  
 </section>
      
 <section style="background-color: #FFFFFF;">
    <div class="usa-grid">
-     <div class="usa-width-two-thirds">
+     <div class="usa-width-one-whole">
        <h3>Purpose</h3>
-       <h5>Build on Existing Interagency Efforts to Protect Privacy</h5>
+       <h4>Build on Existing Interagency Efforts to Protect Privacy</h4>
       The Federal Privacy Council is the principal interagency forum to improve the privacy practices of agencies and 
       entities acting on their behalf. The work of the Federal Privacy Council shall strengthen protections of people’s personal 
       information and privacy rights across the Federal Government. To achieve this purpose, the Federal Privacy Council shall: 
@@ -20,20 +22,17 @@ layout: base
       and sharing lessons learned and best practices; and promote collaboration between and among agency privacy professionals to
       reduce unnecessary duplication of efforts and to ensure the effective, efficient, and consistent implementation of privacy policy government-wide.
       <BR>
-      <A HREF="https://www.gpo.gov/fdsys/pkg/FR-2016-02-12/pdf/2016-03141.pdf"><button>Executive Order</button></A>
-      </div>
-    <div class="usa-width-one-third">
-      <img src="{{ page.background-image | prepend: site.baseurl }}" style="">
-   </div>
+     <h6 class="usa-heading-alt"><A HREF="https://www.gpo.gov/fdsys/pkg/FR-2016-02-12/pdf/2016-03141.pdf">Executive Order</A></h6
+      </div>  
   </div>
 
   <div class="usa-grid">
     <div class="usa-width-one-whole">
       <h3>Vision</h3>
-      <h5>Ensure that Privacy Practices and Privacy Programs Evolve to Help Promote and Maintain our Nation’s Core Values</h5>
-The Federal Privacy Council will help to ensure that as Federal agencies carry out the diverse missions of the Federal Government, they do so in a manner that honors and respects the personal information entrusted to the Federal Government by the American people and other individuals. Today, the United States is in the midst of a revolution of innovation and opportunity based on the explosive growth of the digital economy and the wide-scale adoption of new technology.  To keep pace with this change, the Federal Privacy Council will identify more effective and innovative ways to help protect privacy across the Government while supporting efforts to deliver better and more efficient services for the American people.</DIV>
+      <h4>Ensure that Privacy Practices and Privacy Programs Evolve to Help Promote and Maintain our Nation’s Core Values</h4>
+The Federal Privacy Council will help to ensure that as Federal agencies carry out the diverse missions of the Federal Government, they do so in a manner that honors and respects the personal information entrusted to the Federal Government by the American people and other individuals. Today, the United States is in the midst of a revolution of innovation and opportunity based on the explosive growth of the digital economy and the wide-scale adoption of new technology.  To keep pace with this change, the Federal Privacy Council will identify more effective and innovative ways to help protect privacy across the Government while supporting efforts to deliver better and more efficient services for the American people.
   <BR>
-    <A HREF="{{ site.baseurl }}/council-members/"><button>Council Members</button></A>
+    <h6 class="usa-heading-alt"><A HREF="{{ site.baseurl }}/council-members/"><button>Council Members</button></A></h6>
   </div>
  </section>
 
