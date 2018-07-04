@@ -2,7 +2,7 @@
 layout: page
 title: Implemenation
 hero-text: Implementation
-permalink: /implementation/
+permalink: /implemenation/
 ---
 
 ## Implementation & Innovation
