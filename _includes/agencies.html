@@ -1,6 +1,6 @@
 <div class="project-container">
 {% for agency in site.agencies %}
-  {% unless project.featured %}
+  {% unless agency.featured %}
     <article class="card usa-width-one-sixth">
       <a class="card-link" href="{{ agency.url | prepend: site.baseurl }}" aria-hidden="true" tabindex="-1"></a>
       <div class="card-image"
