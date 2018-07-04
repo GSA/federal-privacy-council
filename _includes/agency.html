@@ -1,0 +1,27 @@
+<div class="project-container">
+{% for agency in site.agencies %}
+  {% unless project.featured %}
+    <article class="card usa-width-one-sixth">
+      <a class="card-link" href="{{ agency.url | prepend: site.baseurl }}" aria-hidden="true" tabindex="-1"></a>
+      <div class="card-image"
+        style="background-image: url(
+        {% if agency.image_thumbnail %}
+          {{ agency.image_thumbnail | prepend: site.baseurl }}
+        {% else %}
+          {{ agency.image | prepend: site.baseurl }}
+        {% endif %}
+        );">
+      </div>
+      <div class="card-banner">
+        <h3 class="card-description">
+          <span>{{ agency.title }}</span>
+        </h3>
+        <p class="card-summary">{{ agency.description }}</p>
+      </div>
+      <a class="card-read" href="{{ agency.url }}">
+        Go to Site
+      </a>
+    </article>
+  {% endunless %}
+{% endfor %}
+</div>
