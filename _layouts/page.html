@@ -6,7 +6,7 @@ layout: base
   <div class="usa-width-one-whole">
     <h1> {{ page.title }}</h1>
     {% if page.image %}
-    <div class="page--banner" style="background-image: url({{ page.image | prepend: site.baseurl }});"></div>
+    <div class="page--banner" style="background-image: url({{ page.image | prepend: site.baseurl }});"><h1> {{ page.title }}</h1></div>
     {% endif %}
     {{ content }}
     </div>
