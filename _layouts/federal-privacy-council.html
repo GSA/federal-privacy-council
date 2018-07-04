@@ -1,8 +1,10 @@
 ---
 layout: base
 ---
-<section class=" usa-section">
-  <div class="usa-grid" style="background-image: url('{{ page.background-image | prepend: site.baseurl }}'); height: 200px;">
+<section class="usa-section" style="background-image: url('{{ page.background-image | prepend: site.baseurl }}'); height: 200px; -webkit-box-shadow: inset 0px -6px 300px 20px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 0px -6px 300px 20px rgba(0,0,0,0.75);
+box-shadow: inset 0px -6px 300px 20px rgba(0,0,0,0.75);">
+  <div class="usa-grid">
     <div class="usa-width-one-whole">
       <h1 style="color: #ffffff;">{{ page.hero-text }}</h1>
     </div>
@@ -24,15 +26,13 @@ layout: base
       <BR>
      <h6 class="usa-heading-alt"><A HREF="https://www.gpo.gov/fdsys/pkg/FR-2016-02-12/pdf/2016-03141.pdf">Executive Order</A></h6
       </div>  
-  </div>
-
-  <div class="usa-grid">
+       
     <div class="usa-width-one-whole">
       <h3>Vision</h3>
       <h4>Ensure that Privacy Practices and Privacy Programs Evolve to Help Promote and Maintain our Nation’s Core Values</h4>
 The Federal Privacy Council will help to ensure that as Federal agencies carry out the diverse missions of the Federal Government, they do so in a manner that honors and respects the personal information entrusted to the Federal Government by the American people and other individuals. Today, the United States is in the midst of a revolution of innovation and opportunity based on the explosive growth of the digital economy and the wide-scale adoption of new technology.  To keep pace with this change, the Federal Privacy Council will identify more effective and innovative ways to help protect privacy across the Government while supporting efforts to deliver better and more efficient services for the American people.
   <BR>
-    <h6 class="usa-heading-alt"><A HREF="{{ site.baseurl }}/council-members/"><button>Council Members</button></A></h6>
+    <h6 class="usa-heading-alt"><A HREF="{{ site.baseurl }}/council-members/">Council Members</A></h6>
   </div>
  </section>
 
