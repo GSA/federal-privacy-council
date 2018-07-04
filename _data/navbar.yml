@@ -58,8 +58,7 @@ assigned:
                 
     -
         text: 'Implementation'
-        href: ./
-        permalink: ./
+        permalink: /implemenation/
         show_in_footer: false
     -
         text: 'Agencies'
