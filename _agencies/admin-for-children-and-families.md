@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: agencies
 title: Administration for Children and Families
 description: A new letter increases farmers' access to credit by 22%.
 permalink: /agencies/admin-for-children-and-families/
