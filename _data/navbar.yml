@@ -62,12 +62,11 @@ assigned:
         show_in_footer: false
     -
         text: 'Agencies'
-        href: ./
-        permalink: ./
+        permalink: /agencies/
         show_in_footer: false
     -
         text: 'Careers'
-        href: _data/projects.yml
+        permalink: /careers/
         show_in_footer: false
 
 
