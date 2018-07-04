@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 
+title: About this Website
 permalink: /about-this-site/
 image:
 ---
@@ -10,4 +10,4 @@ image:
 The Federal Privacy Council was established in February 2016 by the President of the United States as the principal interagency 
 forum to improve the privacy practices of Federal Government agencies and the entities acting on their behalf.
 
-{ % include about-this-site.html % }
+{% include about-this-site.html %}
