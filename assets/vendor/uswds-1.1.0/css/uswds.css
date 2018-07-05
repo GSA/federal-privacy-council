@@ -1821,11 +1821,11 @@ dfn {
 }
 
 .usa-content p:not(.usa-font-lead) {
-  max-width: 62.5rem;
+  max-width: 53rem;
 }
 
 .usa-content-list {
-  max-width: 62.5rem;
+  max-width: 53rem;
 }
 
 .usa-sans p,
