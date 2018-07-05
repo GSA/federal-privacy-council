@@ -61,7 +61,7 @@
       {% for nav in navs %}
         {% if nav.children != null %}
         <li><button class="usa-accordion-button usa-nav-link" aria-expanded="false" aria-controls="{{ nav.sectionid }}">
-      <span>{{ nav.text} }</span></button>
+      <span>{{ nav.text }}</span></button>
           <ul id="{{ nav.sectionid }}" class="usa-nav-submenu">
           {% for children in nav.children %}
             <li><a href="{{ children.permalink | prepend: site.baseurl }}">{{ children.text }}</a></li>
