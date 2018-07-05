@@ -1,8 +1,8 @@
 ---
-layout: page
+layout: agency-list
 title: Federal Agencies
-hero-text: Federal Agencies
-permalink:
+permalink: /agencies/
+body-class: page-team
 ---
 
 ## Agencies

@@ -1,27 +1,20 @@
-<div class="project-container">
+<section class="usa-graphic_list">
 {% for agency in site.agencies %}
-  {% unless agency.featured %}
-    <article class="card usa-width-one-sixth">
-      <a class="card-link" href="{{ agency.url }}" aria-hidden="true" tabindex="-1"></a>
-      <div class="card-image"
-        style="background-image: url(
-        {% if agency.image_thumbnail %}
-          {{ agency.image_thumbnail | prepend: site.baseurl }}
-        {% else %}
-          {{ agency.image | prepend: site.baseurl }}
-        {% endif %}
-        );">
-      </div>
-      <div class="card-banner">
-        <h3 class="card-description">
-          <span>{{ agency.title }}</span>
-        </h3>
-        <p class="card-summary">{{ agency.description }}</p>
-      </div>
-      <a class="card-read" href="{{ agency.url }}">
-        Go to Site
-      </a>
-    </article>
-  {% endunless %}
+  {% assign half = forloop.index | modulo: 2 %}
+  {% if half == 1 %}
+  <div class="usa-width-one-half usa-end-row usa-media_block">
+  {% else %}
+  <div class="usa-width-one-half usa-media_block">
+  {% endif %}
+    <div class="usa-media_block-img team-image" style="background-image: url({{ agency.image | prepend: site.baseurl }});" role="image" aria-label="{{ agency.name }}"></div>
+    <div class="usa-media_block-body">
+      <h3>
+        <a href="{{ agency.url }}">
+          {{ agency.name }}
+        </a>
+      </h3>
+      <p>{{ agency.description }}</p>
+    </div>
+  </div>
 {% endfor %}
-</div>
+</section>
