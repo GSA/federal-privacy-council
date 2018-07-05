@@ -89,7 +89,7 @@ $on-laptop:        800px;
 .tab button {
    background-color: inherit;
    float: left;
-   border: none;
+   border-bottom: 2px;
    outline: none;
    cursor: pointer;
    color: #e31c3d;
@@ -98,7 +98,7 @@ $on-laptop:        800px;
 /* Change background color of buttons on hover */
 .tab button:hover {
    background-color: #ffffff;
-   color: #e31c3d;
+   color: #981b1e;
    border-bottom: 2px;
    border-color: #e31c3d;
 }
