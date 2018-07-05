@@ -1,16 +1,16 @@
 <section class="usa-graphic_list">
-{% for agency in site.agencies %}
+{% for page in site.agencies %}
   {% assign half = forloop.index | modulo: 2 %}
   {% if half == 1 %}
   <div class="usa-width-one-half usa-end-row usa-media_block">
   {% else %}
   <div class="usa-width-one-half usa-media_block">
   {% endif %}
-    <div class="usa-media_block-img team-image" style="background-image: url({{ agency.image | prepend: site.baseurl }});" role="image" aria-label="{{ agency.name }}"></div>
+    <div class="usa-media_block-img team-image" style="background-image: url({{ page.image | prepend: site.baseurl }});" role="image" aria-label="{{ page.name }}"></div>
     <div class="usa-media_block-body">
       <h3>
-        <a href="{{ agency.url }}">
-          {{ agency.name }}
+        <a href="{{ page.url }}">
+          {{ page.name }}
         </a>
       </h3>
       <p>{{ agency.description }}</p>
