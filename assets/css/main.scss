@@ -81,7 +81,8 @@ $on-laptop:        800px;
 .tab {
    overflow: hidden;
    border: 1px solid #ccc;
-   background-color: #f1f1f1;
+   border-bottom: 0px;
+   background-color: #ffffff;
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -91,24 +92,29 @@ $on-laptop:        800px;
    border: none;
    outline: none;
    cursor: pointer;
-   padding: 14px 16px;
-   transition: 0.3s;
+   color: #e31c3d;
 }
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-   background-color: #ddd;
+   background-color: #ffffff;
+   color: #e31c3d;
+   border-bottom: 2px;
+   border-color: #e31c3d;
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
-   background-color: #ccc;
+   background-color: #ffffff;
+   color: #981b1e;
+   border-bottom: 2px;
+   border-color: #981b1e;
 }
 
 /* Style the tab content */
 .tabcontent {
    display: none;
-   padding: 6px 12px;
+   padding: 12px 12px;
    border: 1px solid #ccc;
    border-top: none;
 }

@@ -1,6 +1,6 @@
 <div class="usa-width-one-whole">
   <div class="tab">
-    <button class="tablinks" onclick="openTabs(event, 'agency-resources')">Agency Resources</button>
+    <button class="tablinks" onclick="openTabs(event, 'agency-resources')" id="defaultOpen">Agency Resources</button>
     <button class="tablinks" onclick="openTabs(event, 'education')">Education & Experience</button>
     <button class="tablinks" onclick="openTabs(event, 'students')">Students & Recent Graduates</button>
   </div>
@@ -267,9 +267,10 @@ function openTabs(evt, title) {
     for (i = 0; i < tablinks.length; i++) {
         tablinks[i].className = tablinks[i].className.replace(" active", "");
     }
-
     // Show the current tab, and add an "active" class to the button that opened the tab
     document.getElementById(title).style.display = "block";
     evt.currentTarget.className += " active";
+
 }
+  document.getElementById("defaultOpen").click();
 </script>
