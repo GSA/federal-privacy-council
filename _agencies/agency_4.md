@@ -1,5 +1,5 @@
 ---
-layout: agencies
+layout: agency
 name: Person Four
 image: /assets/img/team/team-placeholder.jpg
 title: Title here
