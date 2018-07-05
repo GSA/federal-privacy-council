@@ -1,7 +1,7 @@
 ---
 layout: agency-list
 title: Federal Agencies
-permalink: /agencies/
+permalink: 
 body-class: page-team
 ---
 
