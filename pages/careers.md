@@ -1,5 +1,5 @@
 ---
-layout: careers-page
+layout: page
 title: Careers
 hero-text: Careers
 permalink: /careers/
