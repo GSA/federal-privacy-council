@@ -41,7 +41,7 @@
       <button class="usa-menu-btn">Menu</button>
       <div class="usa-logo" id="logo">
         <em class="usa-logo-text">
-       
+
           <a href="{{ site.url }}" accesskey="1" title="Home" aria-label="Home">
           {% if site.logo %}
             <img src="{{ site.logo | prepend: site.baseurl }}" alt="{{ site.title }}">
@@ -60,7 +60,7 @@
       {% assign navs = site.data.navbar.assigned %}
       {% for nav in navs %}
         {% if nav.children != null %}
-        <li><button class="usa-accordion-button usa-nav-link" aria-expanded="false" aria-controls="{{ nav.sectionid }}">
+        <li><a class="usa-accordion-button usa-nav-link" aria-expanded="false" aria-controls="{{ nav.sectionid }}">
       <span>{{ nav.text}}</span>
           <ul id="{{ nav.sectionid }}" class="usa-nav-submenu">
           {% for children in nav.children %}
@@ -72,12 +72,12 @@
          <li class="usa-nav-link">
            <a href="{{ nav.permalink | prepend: site.baseurl }}">{{ nav.text }}</a>
          </li>
-      {% else %} 
+      {% else %}
         <li class="usa-nav-link">
           <a href="{{ nav.permalink | prepend: site.baseurl }}">{{ nav.text }}</a>
         </li>
         {% endif %}
-       {% endfor %}  
+       {% endfor %}
       </ul>
     </nav>
   </div>
