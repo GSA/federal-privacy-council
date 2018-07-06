@@ -3,6 +3,7 @@ layout: page
 title: National Institute of Standards and Technology
 hero-text: National Institute of Standards and Technology (NIST)
 permalink: /resources/nist/
+header-image: /assets/img/header-image.jpg
 ---
 ## About the National Institute of Standards and Technology
 The <a href="https://www.nist.gov/">National Institute of Standards and Technology (NIST)</a> was founded in 1901 and is now part of the U.S. Department of Commerce. Congress established the agency to help improve U.S. industrial competitiveness. From the smart electric power grid and electronic health records to atomic clocks, advanced nanomaterials, and computer chips, innumerable products and services rely in some way on technology, measurement, and standards provided by the National Institute of Standards and Technology.

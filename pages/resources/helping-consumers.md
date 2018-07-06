@@ -3,6 +3,7 @@ layout: page
 title: Helping Consumers
 hero-text: Helping Consumers
 permalink: /resources/helping-consumers/
+header-image: /assets/img/header-image.jpg
 ---
 ## About
 The information provided on this page is designed to help consumers file complaints and resolve common issues related to a wide range of privacy concerns involving the potential misuse of personal information.

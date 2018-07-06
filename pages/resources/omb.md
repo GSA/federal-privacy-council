@@ -3,6 +3,7 @@ layout: page
 title: Office Of Management and Budget
 hero-text: Office of Management and Budget (OMB)
 permalink: /resources/omb/
+header-image: /assets/img/header-image.jpg
 ---
 ## About the Office of Management and Budget
 The Office of Management and Budget (OMB) is the largest component of the Executive Office of the President. The core mission of OMB is to serve the President of the United States in implementing his vision across the Executive Branch. OMB reports directly to the President and helps a wide range of executive departments and agencies across the Federal Government to execute their programs effectively and implement the commitments and priorities of the President.

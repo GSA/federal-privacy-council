@@ -3,6 +3,7 @@ layout: page
 title: Federal Privacy Programs
 hero-text: Federal Privacy Programs
 permalink: /resources/privacy-programs/
+header-image: /assets/img/header-image.jpg
 ---
 ## About
 In order to manage Federal information resources that involve personally identifiable information (PII), agencies are required to develop, implement, document, maintain, and oversee agency-wide privacy programs that include people, processes, and technologies. To ensure that agencies effectively carry out the privacy-related functions described in law and OMB policies, Executive Order 13719 requires the head of each agency to designate or re-designate a Senior Agency Official for Privacy (SAOP) who has agency-wide responsibility and accountability for the agency’s privacy program.
