@@ -2,7 +2,7 @@
 layout: page
 title: Government-wide SORNs
 hero-text: Government-wide SORNs
-permalink: /resources/sorns/
+permalink: /resources/SORNs/
 header-image: /assets/img/header-image.jpg
 ---
 ## About

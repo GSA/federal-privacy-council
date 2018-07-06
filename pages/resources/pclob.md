@@ -3,6 +3,7 @@ layout: page
 title: Privacy and Civil Liberties Oversight Board
 hero-text: Privacy and Civil Liberties Oversight Board (PCLOB)
 permalink: /resources/pclob/
+header-image: /assets/img/header-image.jpg
 ---
 ## About the Privacy and Civil Liberties Oversight Board
 The <a href="https://www.pclob.gov/">Privacy and Civil Liberties Oversight Board (“PCLOB”)</a> is an independent, bipartisan agency within the Executive Branch established by the <a href="https://www.fpc.gov/implementing-recommendations-of-the-911-commission-act-of-2007/">Implementing Recommendations of the 9/11 Commission Act of 2007</a> (codified at <a href="https://www.gpo.gov/fdsys/pkg/USCODE-2014-title42/pdf/USCODE-2014-title42-chap21E.pdf">42 U.S.C. § 2000ee-1</a>). The PCLOB is comprised of four part-time members and a full-time chairman, who is vested with management responsibilities such as hiring employees.
