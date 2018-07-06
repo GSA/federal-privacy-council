@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Resources
-permalink: /Resources/
+permalink: /resources/
 image: /assets/img/about.jpg
 ---
 
