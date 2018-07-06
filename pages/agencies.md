@@ -1,6 +1,7 @@
 ---
 layout: agency-list
 title: Federal Agencies
+hero-text: Federal Agencies
 permalink: /agencies/
 body-class: page-team
 header-image: /assets/img/FederalPrivacyLaws3.jpg
