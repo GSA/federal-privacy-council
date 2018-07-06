@@ -25,37 +25,37 @@ assigned:
         children:
             -
                 text: 'Federal Privacy Programs'
-                permalink: #
+                permalink: /resources/privacy-programs/
                 show_in_footer: false
             -
                 text: 'Office of Management and Budget (OMB)'
-                permalink: #
+                permalink: /resources/omb/
                 show_in_footer: false
             -
                 text: 'Privacy and Civil Liberties Oversight Board (PCLOB)'
-                permalink: #
+                permalink: /resources/pclob/
                 show_in_footer: false
             -
                 text: 'National Institue of Standards and Technology (NIST)'
-                permalink: #
+                permalink: /resources/nist/
                 show_in_footer: false
             -
                 text: 'Helping Consumers'
-                permalink: #
+                permalink: /resources/helping-consumers/
                 show_in_footer: false
             -
                 text: 'Government-wide SORNs'
-                permalink: #
+                permalink: /resources/SORNs/
                 show_in_footer: false
             -
                 text: 'Beyond the Executive Branch'
-                permalink: #
+                permalink: /resources/beyond-executive/
                 show_in_footer: false
             -
                 text: 'Glossary'
-                permalink: #
+                permalink: /resources/glossary/
                 show_in_footer: false
-                
+
     -
         text: 'Agencies'
         permalink: /agencies/

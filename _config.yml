@@ -53,6 +53,8 @@ defaults:
       - page
       - "project-list"
       - project
+      - resources
+      - agencies
       - "team-list"
       - team
 
@@ -61,7 +63,7 @@ forms:
   heading: Sign up to receive updates from our team
   url: https://docs.google.com/forms/d/1Tsdm_2spbxWnmTFMrH5eHxpOAN9W4LB3eaMMXJ1N0rU/formResponse
   button: Subscribe
-  privacypolicy: 
+  privacypolicy:
   fields:
     - type: email
       name: entry.1440502332
@@ -82,23 +84,23 @@ footer:
         permalink: /agencies/
       - text: Careers
         permalink: /careers/
-        image: /assets/img/logo-main.png  
-  sitelink:      
+        image: /assets/img/logo-main.png
+  sitelink:
     - url: /about-this-site/
       text: About this Site
     - url: /privacy-policy/
       text: Privacy Policy
     - url: /disclaimer/
-      text: Disclaimer    
+      text: Disclaimer
   contact:
-    name: Federal Privacy Council 
-    phonenumber: 
+    name: Federal Privacy Council
+    phonenumber:
     email: privacy.council@gsa.gov
-    twitter: 
-    facebook: 
-    youtube: 
-    rss: 
-  text: 
+    twitter:
+    facebook:
+    youtube:
+    rss:
+  text:
  # Change to a tag line for your agency
 
 # Build settings

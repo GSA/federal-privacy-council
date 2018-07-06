@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: resources-page
 title: Federal Privacy Programs
 hero-text: Federal Privacy Programs
 permalink: /resources/privacy-programs/
