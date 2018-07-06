@@ -3,6 +3,7 @@ layout: page
 title: Careers
 hero-text: Careers
 permalink: /careers/
+header-image: /assets/img/FPC-Careers.jpg
 ---
 ## Join Our Team – Tackle New Challenges and Adopt Innovative Solutions
 
