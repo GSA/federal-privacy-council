@@ -53,7 +53,7 @@ defaults:
       - page
       - "project-list"
       - project
-      - resources
+      - resources-page
       - agencies
       - "team-list"
       - team

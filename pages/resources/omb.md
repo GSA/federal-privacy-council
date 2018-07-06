@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: resources-page
 title: Office Of Management and Budget
 hero-text: Office of Management and Budget (OMB)
 permalink: /resources/omb/
