@@ -1,5 +1,5 @@
 ---
-layout: team-list
+layout: agency-list
 title: Federal Agencies
 permalink: /agencies/
 body-class: page-team
