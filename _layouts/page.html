@@ -2,9 +2,9 @@
 layout: base
 ---
 {% if page.header-image %}
-<section class="usa-section" style="background-image: url('{{ page.header-image | prepend: site.baseurl }}');">
+<section class="usa-section">
       <div class="usa-grid">
-        <div class="usa-width-one-whole">
+        <div class="usa-width-one-whole" style="background-image: url('{{ page.header-image | prepend: site.baseurl }}');">
           <h1 style="color: #ffffff;">{{ page.hero-text }}</h1>
         </div>
     {% endif %}
