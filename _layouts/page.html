@@ -4,7 +4,7 @@ layout: base
 {% if page.header-image %}
 <section class="usa-section">
       <div class="usa-grid">
-        <div class="usa-width-one-whole" style="background-image: url('{{ page.header-image | prepend: site.baseurl }}');">
+        <div class="usa-width-one-whole" style="background-image: url('{{ page.header-image | prepend: site.baseurl }}'); max-height: 200px;">
           <h1 style="color: #ffffff;">{{ page.hero-text }}</h1>
         </div>
     {% endif %}
