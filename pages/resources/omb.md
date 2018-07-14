@@ -18,6 +18,7 @@ OMB, through its Office of Information and Regulatory Affairs (OIRA), has a fund
   <a href="https://www.whitehouse.gov/sites/default/files/omb/memoranda/2016/m_16_24_0.pdf"><b>OMB Memorandum M-16-24, Role and Designation of Senior Agency Officials for Privacy (Sept. 2016)</b></a>
 
   <a href="https://www.whitehouse.gov/sites/default/files/omb/assets/OMB/circulars/a130/a130revised.pdf"><b>OMB Circular A-130, Managing Information as Strategic Resource (July, 28, 2016)</b></a>
+
   <a href="https://www.whitehouse.gov/sites/default/files/omb/memoranda/2016/m-16-17.pdf">OMB Circular A-123, Management’s Responsibility for Enterprise Risk Management and Internal Control (July 15, 2016)</a>
 
   <a href="https://www.whitehouse.gov/sites/default/files/omb/memoranda/2014/m-14-06.pdf">OMB Memorandum M-14-06, Guidance for Providing and Using Administrative Data for Statistical Purposes (Feb. 14, 2014)</a>
@@ -64,6 +65,6 @@ OMB, through its Office of Information and Regulatory Affairs (OIRA), has a fund
 #### 1970s
   <a href="https://www.whitehouse.gov/sites/default/files/omb/assets/omb/inforeg/implementation1974.pdf">Implementation of the Privacy Act of 1974, Supplementary Guidance, 40 Fed. Reg. 5,674 (Nov. 21, 1975) </a>
 
-  <a href=https://www.whitehouse.gov/sites/default/files/omb/inforeg/lynn1975.pdf>OMB Memorandum to the Heads of Executive Departments and Establishments, Congressional Inquiries which Entail Access to Personal Information Subject to the Privacy Act (Oct. 3, 1975)</a>
+  <a href="https://www.whitehouse.gov/sites/default/files/omb/inforeg/lynn1975.pdf">OMB Memorandum to the Heads of Executive Departments and Establishments, Congressional Inquiries which Entail Access to Personal Information Subject to the Privacy Act (Oct. 3, 1975)</a>
 
   <a href="https://www.whitehouse.gov/sites/default/files/omb/assets/omb/inforeg/implementation_guidelines.pdf">Privacy Act Implementation: Guidelines and Responsibilities, 40 Fed. Reg. 28,948 (July 9, 1975)</a>
