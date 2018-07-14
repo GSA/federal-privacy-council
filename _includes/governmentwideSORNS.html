@@ -1,7 +1,45 @@
 <section class="usa-section">
   <div class="usa-grid">
     <div class="usa-one-whole">
+      <div class="vtab">
+       <button class="vtablinks defaultOpen" onclick="openTabs(event, 'London')">London</button>
+       <button class="vtablinks" onclick="openTabs(event, 'Paris')">Paris</button>
+       <button class="vtablinks" onclick="openTabs(event, 'Tokyo')">Tokyo</button>
+     </div>
 
+     <div id="London" class="vtabcontent">
+       <h3>London</h3>
+       <p>London is the capital city of England.</p>
+     </div>
+
+     <div id="Paris" class="vtabcontent">
+       <h3>Paris</h3>
+       <p>Paris is the capital of France.</p>
+     </div>
+
+     <div id="Tokyo" class="vtabcontent">
+       <h3>Tokyo</h3>
+       <p>Tokyo is the capital of Japan.</p>
+     </div>
   </div>
 </div>
 </section>
+<script>
+function openTabs(evt, title) {
+    var i, vtabcontent, vtablinks;
+
+    vtabcontent = document.getElementsByClassName("vtabcontent");
+    for (i = 0; i < vtabcontent.length; i++) {
+        vtabcontent[i].style.display = "none";
+    }
+
+    vtablinks = document.getElementsByClassName("vtablinks");
+    for (i = 0; i < vtablinks.length; i++) {
+        vtablinks[i].className = vtablinks[i].className.replace(" active", "");
+    }
+
+    document.getElementById(title).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+  document.getElementById("defaultOpen").click();
+</script>
