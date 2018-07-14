@@ -116,7 +116,7 @@ $on-laptop:        800px;
 
 
 /*vertical tabs*/
-.verticaltab {
+.vtab {
     float: left;
     border: 1px solid #ccc;
     background-color: #f1f1f1;
@@ -124,7 +124,7 @@ $on-laptop:        800px;
     height: 300px;
 }
 
-.verticaltab button {
+.vtab button {
     display: block;
     background-color: inherit;
     color: black;
@@ -137,14 +137,14 @@ $on-laptop:        800px;
     transition: 0.3s;
 }
 
-.verticaltab button:hover {
+.vtab button:hover {
     background-color: #ddd;
 }
 
-.verticaltab button.active {
+.vtab button.active {
     background-color: #ccc;
 }
-.verticaltabcontent {
+.vtabcontent {
     float: left;
     padding: 0px 12px;
     border: 1px solid #ccc;
