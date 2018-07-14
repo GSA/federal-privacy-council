@@ -25,12 +25,15 @@ For a list of Federal laws related to privacy, visit the <a href="{{ site.baseur
 
 ## Executive Orders, Memoranda, and Directives
 <a href="https://www.whitehouse.gov/sites/default/files/omb/memoranda/2017/m-17-06.pdf">OMB M-17-06, Policies for Federal Agency Public Websites and Digital Services (Nov. 2016)</a>
+
 **Tip**: Section 6 requires that “[e]ach agency must maintain a central resource page dedicated to its privacy program on the agency’s principal website.  The agency’s Privacy Program Page must serve as a central source for information about the agency’s practices with respect to PII.  The agency’s Privacy Program Page must be located at [http://www.[agency].gov/privacy] and must be accessible through the agency’s “About” page.
 
 <a href="https://www.whitehouse.gov/sites/default/files/omb/memoranda/2016/m_16_24_0.pdf">OMB Memorandum M-16-24, Role and Designation of Senior Agency Officials for Privacy (Sept. 2016)</a>
 
 <a href="https://www.whitehouse.gov/sites/default/files/omb/assets/OMB/circulars/a130/a130revised.pdf">OMB Circular No. A-130, Managing Information as a Strategic Resource (July 2016)</a>
+
 **Tip**: See Appendix II, Section 5, Agency Privacy Program
 
 <a href="http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r4.pdf">NIST SP 800-53 (Rev. 4), Security and Privacy Controls for Federal Information Systems and Organizations</a>
+
 **Tip**: See Appendix J, AR-1, Governance and Privacy Program (Apr. 2013)
