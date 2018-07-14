@@ -115,7 +115,7 @@ $on-laptop:        800px;
 }
 
 
-/*vertical tabs*/
+/* Style the tab */
 .vtab {
     float: left;
     border: 1px solid #ccc;
@@ -124,6 +124,7 @@ $on-laptop:        800px;
     height: 300px;
 }
 
+/* Style the buttons that are used to open the tab content */
 .vtab button {
     display: block;
     background-color: inherit;
@@ -137,13 +138,17 @@ $on-laptop:        800px;
     transition: 0.3s;
 }
 
+/* Change background color of buttons on hover */
 .vtab button:hover {
     background-color: #ddd;
 }
 
+/* Create an active/current "tab button" class */
 .vtab button.active {
     background-color: #ccc;
 }
+
+/* Style the tab content */
 .vtabcontent {
     float: left;
     padding: 0px 12px;
@@ -151,4 +156,3 @@ $on-laptop:        800px;
     width: 70%;
     border-left: none;
     height: 300px;
-}
