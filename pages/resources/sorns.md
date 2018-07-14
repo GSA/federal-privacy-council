@@ -13,3 +13,5 @@ A government-wide system of records is a system of records where one agency has 
 This list of SORNs is provided for informational purposes only and may not include every government-wide SORN.  Visitors to this website should not rely upon any information provided on this website for the purpose of making decisions related to agency practices and policies.
 
 If you identify a potential error in this list of government-wide SORNs or believe we failed to include a government-wide SORN, please email us at privacycouncil@gsa.gov.
+
+{% include governmentwideSORNS.html %}
