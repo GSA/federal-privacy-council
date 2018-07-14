@@ -1,0 +1,48 @@
+<section class="usa-section">
+  <div class="usa-grid">
+    <div class="usa-one-whole">
+    <div class="verticaltab">
+     <button class="tablinks" onclick="openTabs(event, 'London')">London</button>
+     <button class="tablinks" onclick="openTabs(event, 'Paris')">Paris</button>
+     <button class="tablinks" onclick="openTabs(event, 'Tokyo')">Tokyo</button>
+    </div>
+
+    <div id="London" class="verticaltabcontent">
+     <h3>London</h3>
+     <p>London is the capital city of England.</p>
+    </div>
+
+    <div id="Paris" class="verticaltabcontent">
+     <h3>Paris</h3>
+     <p>Paris is the capital of France.</p>
+    </div>
+
+    <div id="Tokyo" class="verticaltabcontent">
+     <h3>Tokyo</h3>
+     <p>Tokyo is the capital of Japan.</p>
+    </div>
+  </div>
+</div>
+</section>
+<script>
+function openTabs(evt, tabName) {
+    // Declare all variables
+    var i, verticaltabcontent, tablinks;
+
+    // Get all elements with class="tabcontent" and hide them
+    verticaltabcontent = document.getElementsByClassName("verticaltabcontent");
+    for (i = 0; i < verticaltabcontent.length; i++) {
+        verticaltabcontent[i].style.display = "none";
+    }
+
+    // Get all elements with class="tablinks" and remove the class "active"
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    // Show the current tab, and add an "active" class to the link that opened the tab
+    document.getElementById(tabName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+</script>
