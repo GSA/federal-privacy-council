@@ -77,13 +77,13 @@ $on-laptop:        800px;
         "team"
 ;
 
-/* horizontal tabs */
+/* vertical tabs */
 .tab {
     float: left;
     border: 1px solid #ccc;
     background-color: #f1f1f1;
     width: 30%;
-    height: 300px;
+    height: auto;
 }
 
 /* Style the buttons inside the tab */
