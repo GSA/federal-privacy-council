@@ -2,9 +2,9 @@
   <div class="usa-grid">
     <div class="usa-one-whole">
     <div class="vtab">
-     <button class="tablinks" onclick="openTabs(event, 'London')">London</button>
-     <button class="tablinks" onclick="openTabs(event, 'Paris')">Paris</button>
-     <button class="tablinks" onclick="openTabs(event, 'Tokyo')">Tokyo</button>
+     <button class="vtablinks" onclick="openTabs(event, 'London')">London</button>
+     <button class="vtablinks" onclick="openTabs(event, 'Paris')">Paris</button>
+     <button class="vtablinks" onclick="openTabs(event, 'Tokyo')">Tokyo</button>
     </div>
 
     <div id="London" class="vtabcontent">
@@ -25,9 +25,9 @@
 </div>
 </section>
 <script>
-function openTabs(evt, tabName) {
+function openTabs(evt, title) {
     // Declare all variables
-    var i, vtabcontent, tablinks;
+    var i, vtabcontent, vtablinks;
 
     // Get all elements with class="tabcontent" and hide them
     vtabcontent = document.getElementsByClassName("vtabcontent");
@@ -36,13 +36,13 @@ function openTabs(evt, tabName) {
     }
 
     // Get all elements with class="tablinks" and remove the class "active"
-    tablinks = document.getElementsByClassName("tablinks");
-    for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    vtablinks = document.getElementsByClassName("vtablinks");
+    for (i = 0; i < vtablinks.length; i++) {
+        vtablinks[i].className = vtablinks[i].className.replace(" active", "");
     }
 
     // Show the current tab, and add an "active" class to the link that opened the tab
-    document.getElementById(tabName).style.display = "block";
+    document.getElementById(title).style.display = "block";
     evt.currentTarget.className += "active";
 }
 </script>
