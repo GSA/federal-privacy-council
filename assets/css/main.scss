@@ -83,6 +83,13 @@ $on-laptop:        800px;
     width: auto;
     height: auto;
 }
+.alpha-index a {
+    padding: 20px 20px;
+    text-decoration: none;
+}
+.alpha-index a:hover{
+    text-decoration: underline;
+}
 
 .back-to-top {
     text-align: right;
