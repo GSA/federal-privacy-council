@@ -77,6 +77,26 @@ $on-laptop:        800px;
         "team"
 ;
 
+/* glossary index */
+.alpha-index{
+    background-color: #ccc;
+    width: auto;
+    height: auto;
+}
+
+.back-to-top {
+    text-align: right;
+}
+.back-to-top a:hover{
+    text-decoration: underline;
+    color: #ccc;
+}
+
+.disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+  text-decoration: none;
+}
 /* vertical tabs */
 .tab {
     float: left;
@@ -89,7 +109,6 @@ $on-laptop:        800px;
     box-shadow: inset -5px 0px 5px 0px rgba(204,204,204,1);
 }
 
-/* Style the buttons inside the tab */
 .tab button {
     display: block;
     background-color: #e31c3d;
@@ -105,18 +124,15 @@ $on-laptop:        800px;
     font-size: 15px;
 }
 
-/* Change background color of buttons on hover */
 .tab button:hover {
     background-color: #e59393;
     color: #444444;
 }
 
-/* Create an active/current "tab button" class */
 .tab button.active {
     background-color: #981b1e;
 }
 
-/* Style the tab content */
 .tabcontent {
     float: left;
     padding: 0px 12px;
