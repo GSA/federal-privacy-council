@@ -100,7 +100,8 @@ $on-laptop:        800px;
     text-decoration: underline;
 }
 
-.back-to-top {
+.back-to-top a{
+    float: right;
     text-align: right;
 }
 .back-to-top a:hover{
