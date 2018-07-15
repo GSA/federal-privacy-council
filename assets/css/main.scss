@@ -83,6 +83,7 @@ $on-laptop:        800px;
     background-color: #ffffff;
     width: 15%;
     height: auto;
+    border-right: 1px solid #ccc;
 }
 
 /* Style the buttons inside the tab */
@@ -99,7 +100,7 @@ $on-laptop:        800px;
     cursor: pointer;
     transition: 0.3s;
     font-size: 15px;
-    margin-bottom: 3px;
+    margin: 0px 0px 3px 0px;
 }
 
 /* Change background color of buttons on hover */
@@ -117,7 +118,6 @@ $on-laptop:        800px;
 .tabcontent {
     float: left;
     padding: 0px 12px;
-    border-left: 1px solid #ccc;
     width: 70%;
     height: auto;
 }
