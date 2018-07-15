@@ -84,8 +84,6 @@ footer:
         permalink: /agencies/
       - text: Careers
         permalink: /careers/
-      - text: Back to Top
-        href: https://www.fpc.gov/#page-top
         image: /assets/img/logo-main.png
   sitelink:
     - url: /about-this-site/
