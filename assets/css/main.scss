@@ -82,9 +82,11 @@ $on-laptop:        800px;
     background-color: #ccc;
     width: auto;
     height: auto;
+    padding: 20px 20px;
 }
 .alpha-index a {
-    padding: 20px 20px;
+    font-size: 12px;
+    padding-right: 10px;
     text-decoration: none;
 }
 .alpha-index a:hover{
@@ -100,6 +102,11 @@ $on-laptop:        800px;
 }
 
 .disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+    text-decoration: none;
+}
+.disabled a:hover{
     cursor: not-allowed;
     opacity: 0.5;
     text-decoration: none;
