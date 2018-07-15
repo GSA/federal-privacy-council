@@ -81,7 +81,7 @@ $on-laptop:        800px;
 .tab {
     float: left;
     background-color: #ffffff;
-    width: 20%;
+    width: 15%;
     height: auto;
 }
 
@@ -98,7 +98,8 @@ $on-laptop:        800px;
     text-align: left;
     cursor: pointer;
     transition: 0.3s;
-    font-size: 17px;
+    font-size: 15px;
+    margin-bottom: 3px;
 }
 
 /* Change background color of buttons on hover */
