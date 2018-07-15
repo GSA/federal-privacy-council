@@ -83,7 +83,10 @@ $on-laptop:        800px;
     background-color: #ffffff;
     width: 15%;
     height: auto;
-    border-right: 1px solid #ccc;
+    border-right: 2px solid #ccc;
+    -webkit-box-shadow: inset -5px 0px 5px 0px rgba(204,204,204,1);
+    -moz-box-shadow: inset -5px 0px 5px 0px rgba(204,204,204,1);
+    box-shadow: inset -5px 0px 5px 0px rgba(204,204,204,1);
 }
 
 /* Style the buttons inside the tab */
@@ -119,6 +122,5 @@ $on-laptop:        800px;
     padding: 0px 12px;
     width: 70%;
     height: auto;
-    border-left: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
+
 }
