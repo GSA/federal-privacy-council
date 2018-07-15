@@ -78,17 +78,18 @@ $on-laptop:        800px;
 ;
 
 /* glossary index */
-.alpha-index{
+.alpha-index {
     background-color: #ccc;
-    width: auto;
-    height: auto;
+    width: 100%;
+    min-height: 65px;
     padding: 20px 20px;
     -webkit-box-shadow: 5px 5px 5px 0px rgba(204,204,204,1);
     -moz-box-shadow: 5px 5px 5px 0px rgba(204,204,204,1);
     box-shadow: 5px 5px 5px 0px rgba(204,204,204,1);
+    overflow: hidden;
 }
 .alpha-index a {
-    font-size: 16px;
+    min-width: 40px;
     text-align: center;
     padding: 5px 10px;
     text-decoration: none;
