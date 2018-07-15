@@ -83,6 +83,9 @@ $on-laptop:        800px;
     width: auto;
     height: auto;
     padding: 20px 20px;
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(204,204,204,1);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(204,204,204,1);
+    box-shadow: 5px 5px 5px 0px rgba(204,204,204,1);
 }
 .alpha-index a {
     font-size: 12px;
