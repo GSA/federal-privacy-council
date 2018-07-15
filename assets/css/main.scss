@@ -100,9 +100,13 @@ $on-laptop:        800px;
 }
 
 .disabled {
-  cursor: not-allowed;
-  opacity: 0.5;
-  text-decoration: none;
+    cursor: not-allowed;
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+.glossary-entry {
+    margin-top: 30px;
 }
 /* vertical tabs */
 .tab {
