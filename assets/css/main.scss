@@ -79,7 +79,7 @@ $on-laptop:        800px;
 
 /* glossary index */
 .alpha-index {
-    background-color: #ccc;
+    background-color: #f9f9f9;
     width: 100%;
     min-height: 65px;
     padding: 20px 20px;
@@ -90,7 +90,8 @@ $on-laptop:        800px;
 }
 .alpha-index a {
     min-width: 40px;
-    font-size: 20px;
+    font-size: 25px;
+    font-weight: 700;
     text-align: center;
     padding: 5px 10px;
     text-decoration: none;
