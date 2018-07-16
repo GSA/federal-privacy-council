@@ -90,6 +90,7 @@ $on-laptop:        800px;
 }
 .alpha-index a {
     min-width: 40px;
+    font-size: 20px;
     text-align: center;
     padding: 5px 10px;
     text-decoration: none;
@@ -100,9 +101,14 @@ $on-laptop:        800px;
     text-decoration: underline;
 }
 
-.back-to-top a{
+.back-to-top {
     float: right;
     text-align: right;
+}
+
+.back-to-top a{
+    text-decoration: none;
+
 }
 .back-to-top a:hover{
     text-decoration: underline;
