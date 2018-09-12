@@ -1,6 +1,5 @@
 ---
-layout: council-members
-body-class: home
+layout: page
 permalink: /council-members/
 background-image: /assets/img/fpc-conference.jpg
 hero-text: Council Members
