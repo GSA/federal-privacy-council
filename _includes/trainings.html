@@ -1,0 +1,13 @@
+{% for training in site.trainings %}
+<div class="usa-width-one-third qsmo {{ training.filters }} " style="width:31%; margin-bottom:15px;">
+<div class="container-GoG" tabindex="0" style="background-color:#f9f9f9;padding:0px;#{{training.border}} solid 2px">
+<div style="background:#{{training.border}};border-radius:10px 10px 0px 0px; padding:14px;">
+  <span class="qsmo-tag" style="color:white">{{ training.phase }}</span><br>
+  <b style="color:white">{{ training.name}}</b>
+</div>
+<div style="padding:14px;">
+<p style="font-size:12px;margin-top:5px;margin-bottom:2px"> {{ training.agency }}</p>
+</div>
+</div>
+</div>
+{% endfor %}
